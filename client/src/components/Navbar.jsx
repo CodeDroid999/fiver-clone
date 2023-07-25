@@ -47,12 +47,12 @@ function Navbar() {
   };
 
   const links = [
-    { linkName: "Fiverr Business", handler: "#", type: "link" },
-    { linkName: "Explore", handler: "#", type: "link" },
+    { linkName: "Home", handler: "#", type: "link" },
+    { linkName: "Explore Giggs", handler: "#", type: "link" },
     { linkName: "English", handler: "#", type: "link" },
-    { linkName: "Become a Seller", handler: "#", type: "link" },
+    { linkName: "Sell", handler: "#", type: "link" },
     { linkName: "Sign in", handler: handleLogin, type: "button" },
-    { linkName: "Join", handler: handleSignup, type: "button2" },
+    { linkName: "Earn", handler: handleSignup, type: "button2" },
   ];
 
   useEffect(() => {
