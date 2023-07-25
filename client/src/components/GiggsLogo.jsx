@@ -4,7 +4,7 @@ import React from "react";
 function GiggsLogo({ fillColor }) {
   return (
     <div>
-    
+    Giggs
     </div>
   );
 }
