@@ -47,8 +47,8 @@ function Navbar() {
   };
 
   const links = [
-    { linkName: "Home", handler: "#", type: "link" },
-    { linkName: "Explore Giggs", handler: "#", type: "link" },
+    { linkName: "About", handler: "#", type: "link" },
+    { linkName: "Explore", handler: "#", type: "link" },
     { linkName: "English", handler: "#", type: "link" },
     { linkName: "Sell", handler: "#", type: "link" },
     { linkName: "Sign in", handler: handleLogin, type: "button" },
