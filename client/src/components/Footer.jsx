@@ -7,7 +7,7 @@ import {
   FiLinkedin,
   FiTwitter,
 } from "react-icons/fi";
-import FiverrLogo from "./FiverrLogo";
+import GiggsLogo from "./GiggsLogo";
 import { categories } from "../utils/categories";
 
 function Footer() {
@@ -51,9 +51,7 @@ function Footer() {
         { name: "Press & News", link: "#" },
         { name: "Partnership", link: "#" },
         { name: "Privacy Policy", link: "#" },
-        { name: "Terms of Service", link: "#" },
-        { name: "Intellectual Property Claims", link: "#" },
-        { name: "Investor Relations", link: "#" },
+       
       ],
     },
     {
@@ -61,8 +59,8 @@ function Footer() {
       links: [
         { name: "Help & Support", link: "#" },
         { name: "Trust & Safety", link: "#" },
-        { name: "Selling on Fiverr", link: "#" },
-        { name: "Buying on Fiverr", link: "#" },
+        { name: "Selling on Giggs", link: "#" },
+        { name: "Buying on Giggs", link: "#" },
       ],
     },
     {
@@ -73,29 +71,11 @@ function Footer() {
         { name: "Forum", link: "#" },
         { name: "Events", link: "#" },
         { name: "Blog", link: "#" },
-        { name: "Influencers", link: "#" },
-        { name: "Affiliates", link: "#" },
-        { name: "Podcast", link: "#" },
-        { name: "Invite a Friend", link: "#" },
-        { name: "Become a Seller", link: "#" },
+                { name: "Become a Seller", link: "#" },
         { name: "Community Standards", link: "#" },
       ],
     },
-    {
-      headerName: "Move From Fiverr",
-      links: [
-        { name: "Fiverr Business", link: "#" },
-        { name: "Fiverr Pro", link: "#" },
-        { name: "Fiverr Logo Maker", link: "#" },
-        { name: "Fiverr Guides", link: "#" },
-        { name: "Get Inspired", link: "#" },
-        { name: "Fiverr Select", link: "#" },
-        { name: "ClearVoice", link: "#" },
-        { name: "Fiverr Workspace", link: "#" },
-        { name: "Learn", link: "#" },
-        { name: "Working Not Working", link: "#" },
-      ],
-    },
+   
   ];
   return (
     <footer className="w-full  mx-auto px-32 py-16 h-max border-t border-gray-200 bg-gray-100">
@@ -116,7 +96,7 @@ function Footer() {
         })}
       </ul>
       <div className="mt-12 flex items-center justify-between">
-        <FiverrLogo fillColor={"#404145"} />
+        <GiggsLogo fillColor={"#404145"} />
         <ul className="flex gap-5">
           {socialLinks.map(({ icon, link, name }) => (
             <li

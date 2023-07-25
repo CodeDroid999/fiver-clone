@@ -68,57 +68,33 @@ function HomeBanner() {
       </div>
       <div className="z-10 relative w-[650px] flex justify-center flex-col h-full gap-5 ml-20">
         <h1 className="text-white text-5xl leading-snug">
-          Find the perfect&nbsp;
-          <i>freelance</i>
+          Discover the power of &nbsp;
+          <i>Giggs</i>
           <br />
-          services for your business
         </h1>
+        <h1 className="text-white text-4xl leading-snug">
+          Showcase.Connect.Collaborate
+        </h1>
+        <p className="text-white">
+          Whether you are a talented freelancer looking to showcase your skills
+          or a business seeking top-notch services, Giggs is the platform that
+          brings it all together. Join our community today and unlock a world of
+          opportunities.
+        </p>
         <div className="flex align-middle">
-          <div className="relative">
-            <IoSearchOutline className="absolute text-gray-500 text-2xl flex align-middle h-full left-2" />
-            <input
-              type="text"
-              className="h-14 w-[450px] pl-10 rounded-md rounded-r-none"
-              placeholder={`Try "building mobile app"`}
-              value={searchData}
-              onChange={(e) => setSearchData(e.target.value)}
-            />
-          </div>
+          <div className="relative"></div>
           <button
-            className="bg-[#1DBF73] text-white px-12 text-lg font-semibold rounded-r-md"
+            className="bg-[#FD8D14] text-white px-9 py-3 text-2xl font-semibold rounded-md"
             onClick={() => router.push(`/search?q=${searchData}`)}
           >
-            Search
+            Start Earning
           </button>
-        </div>
-        <div className="text-white flex gap-4">
-          Popular:
-          <ul className="flex gap-5">
-            <li
-              className="text-sm py-1 px-3 border rounded-full hover:bg-white hover:text-black transition-all duration-300	cursor-pointer"
-              onClick={() => router.push("/search?q=website design")}
-            >
-              Website Design
-            </li>
-            <li
-              className="text-sm py-1 px-3 border rounded-full hover:bg-white hover:text-black transition-all duration-300	cursor-pointer"
-              onClick={() => router.push("/search?q=wordpress")}
-            >
-              Wordpress
-            </li>
-            <li
-              className="text-sm py-1 px-3 border rounded-full hover:bg-white hover:text-black transition-all duration-300	cursor-pointer"
-              onClick={() => router.push("/search?q=logo design")}
-            >
-              Logo Design
-            </li>
-            <li
-              className="text-sm py-1 px-3 border rounded-full hover:bg-white hover:text-black transition-all duration-300	cursor-pointer"
-              onClick={() => router.push("/search?q=ai services")}
-            >
-              AI Services
-            </li>
-          </ul>
+          <button
+            className="bg-[#FD8D14] text-white mx-3 px-9 py-3 text-2xl font-semibold rounded-md"
+            onClick={() => router.push(`/search?q=${searchData}`)}
+          >
+            Learn more
+          </button>
         </div>
       </div>
     </div>

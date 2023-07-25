@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import FiverrLogo from "./FiverrLogo";
+import GiggsLogo from "./GiggsLogo";
 import Link from "next/link";
 import { IoSearchOutline } from "react-icons/io5";
 import { useRouter } from "next/router";
@@ -173,7 +173,7 @@ function Navbar() {
         >
           <div>
             <Link href="/">
-              <FiverrLogo
+              <GiggsLogo
                 fillColor={!navFixed && !userInfo ? "#ffffff" : "#404145"}
               />
             </Link>

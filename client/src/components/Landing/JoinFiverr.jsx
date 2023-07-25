@@ -12,7 +12,7 @@ function JoinFiverr() {
           className="border text-base font-medium px-5 py-2   border-[#1DBF73] bg-[#1DBF73] text-white rounded-md"
           type="button"
         >
-          Join Fiverr
+          Join Giggs
         </button>
       </div>
       <div className=" w-full h-96">
